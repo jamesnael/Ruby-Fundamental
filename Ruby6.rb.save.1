@@ -1,0 +1,37 @@
+puts 1 - 2 + 3 * 4
+puts 10 ** 2
+
+puts "~~~~~~~~~~~~~~~~~~~~~~~~~~"
+
+puts 80 > 90
+puts "james" == "james"
+puts 80 < 90
+
+puts true && true
+puts true && false
+puts true || false
+
+puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+#If Conditional
+print "Masukkan Username : "
+username = gets.chomp
+
+if username == "James"
+  puts "Login Succeed"
+else
+  puts "Your username is wrong :"
+  print "Masukkan Username ulang"
+  username = get
+end
+
+puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+
+#Ascending Loop
+1.upto(7) do |x|
+    puts "Ascending #{x}"
+end
+
+#Descending Loop
+10.downto(1) do |x|
+    puts "Descending #{x}"
+end
