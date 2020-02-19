@@ -1,7 +1,0 @@
-=begin
-	Contoh Hello World Semacam Echo
-=end
-puts "Hello World"
-print "Test"
-print "Print without Enter"
-
